@@ -26,7 +26,15 @@ Perform initial config: Set Locale, keyboard, options, connect to network
 
 Log out and log back in.
 
-### Define Docker Container
+### Create an account on the Docker hub
+
+If you haven't done so already create an account on https://hub.docker/com
+
+### Log into docker
+
+Run `docker login` and use your Docker hub account credentials.  This will allow your docker instance to pull in images from the registry.
+
+### Build Docker Container
 
 Tried `docker build -t jupyter1` with the included Dockerfile and requiretments.txt got the following error:
 
