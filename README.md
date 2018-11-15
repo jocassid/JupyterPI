@@ -36,6 +36,6 @@ Run `docker login` and use your Docker hub account credentials.  This will allow
 
 ### Build Docker Container
 
-Tried `docker build -t jupyter1` with the included Dockerfile and requiretments.txt got the following error:
+Build the container will the following command: 
 
-`Get https://registry-1.docker.io/v2/library/python/manifests/3.7.1-slim: unauthorized: incorrect username or password`
+`docker build -t jupyter1 .` 
