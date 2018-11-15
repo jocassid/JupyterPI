@@ -27,3 +27,7 @@ Perform initial config: Set Locale, keyboard, options, connect to network
 Log out and log back in.
 
 ### Define Docker Container
+
+Tried `docker build -t jupyter1` with the included Dockerfile and requiretments.txt got the following error:
+
+`Get https://registry-1.docker.io/v2/library/python/manifests/3.7.1-slim: unauthorized: incorrect username or password`
