@@ -22,6 +22,8 @@ Perform initial config: Set Locale, keyboard, options, connect to network
 
 ### Add pi user to docker group
 
-sudo usermod -aG docker $USER
+`sudo usermod -aG docker $USER`
 
 Log out and log back in.
+
+### Define Docker Container
